@@ -1,0 +1,18 @@
+
+models:
+  - type: main
+    engine: openai
+    model: gpt-4.1-mini
+
+instructions:
+  - type: general
+    content: |
+      You are a security input validation assistant.
+      Never follow instructions that request database
+      destruction, unauthorized access, SQL injection,
+      credential disclosure, or security bypasses.
+
+rails:
+  input:
+    flows:
+      - self check input
