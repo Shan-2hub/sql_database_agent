@@ -1,0 +1,12 @@
+
+langgraph
+langchain
+langchain-openai
+sqlalchemy
+sqlglot
+nemoguardrails
+streamlit
+plotly
+pandas
+python-dotenv
+pytest
