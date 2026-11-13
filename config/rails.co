@@ -2,6 +2,6 @@
 define flow self check input
   $allowed = execute self_check_input
 
-  if not $allowed
+  if $allowed.decision == "block"
     bot refuse to respond
     stop
